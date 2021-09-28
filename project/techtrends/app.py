@@ -1,5 +1,5 @@
 import sqlite3
-
+import logging 
 from flask import Flask, jsonify, json, render_template, request, url_for, redirect, flash
 from werkzeug.exceptions import abort
 
@@ -33,6 +33,7 @@ def index():
     connection = get_db_connection( )
     posts = connection.execute('SELECT * FROM posts').fetchall()
     connection.close()
+    app.logger.info('main request successfull')
     return render_template('index.html', posts=posts)
 
 # Define how each individual article is rendered 
@@ -40,14 +41,18 @@ def index():
 @app.route('/<int:post_id>')
 def post(post_id):
     post = get_post(post_id)
+   
     if post is None:
+      app.logger.info('404: No post found')
       return render_template('404.html'), 404
     else:
+      app.logger.info(f'Post { post["title"] } found')
       return render_template('post.html', post=post)
 
 # Define the About Us page
 @app.route('/about')
 def about():
+    app.logger.info('About page request successfull')
     return render_template('about.html')
 
 # Define the post creation functionality 
@@ -67,7 +72,7 @@ def create():
             connection.close()
 
             return redirect(url_for('index'))
-
+    app.logger.info(f'New article "{title}" created!')
     return render_template('create.html')
 
 # health check
@@ -78,6 +83,7 @@ def healthcheck():
         status=200,
         mimetype='application/json'
     )
+    app.logger.info('health request successfull')
     return response
 
 # status check
@@ -92,8 +98,10 @@ def metrics():
         status=200,
         mimetype='application/json'
     )
+    app.logger.info('metrics request successfull')
     return response
 
 # start the application on port 3111
 if __name__ == "__main__":
-   app.run(host='0.0.0.0', port='3111',debug=True)
+   logging.basicConfig(filename='app.log', level=logging.DEBUG, filemode='w')
+   app.run(host='0.0.0.0', port='3111')
