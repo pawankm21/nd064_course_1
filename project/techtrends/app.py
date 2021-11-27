@@ -46,7 +46,7 @@ def post(post_id):
       app.logger.info('404: No post found')
       return render_template('404.html'), 404
     else:
-      app.logger.info(f'Post { post["title"] } found')
+      app.logger.info('Post'+post["title"] + 'found')
       return render_template('post.html', post=post)
 
 # Define the About Us page
@@ -70,9 +70,8 @@ def create():
                          (title, content))
             connection.commit()
             connection.close()
-
+            app.logger.info("New article "+title+" created!")
             return redirect(url_for('index'))
-    app.logger.info(f'New article "{title}" created!')
     return render_template('create.html')
 
 # health check

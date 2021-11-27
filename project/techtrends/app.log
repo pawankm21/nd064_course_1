@@ -1,0 +1,6 @@
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 144-090-926
+INFO:werkzeug: * Running on http://0.0.0.0:7111/ (Press CTRL+C to quit)
+INFO:app:main request successfull
+INFO:werkzeug:127.0.0.1 - - [27/Nov/2021 23:24:06] "GET / HTTP/1.1" 200 -

@@ -1,11 +1,28 @@
 ## Docker commands used to build the application 
-# TODO: insert the docker build command
-
+```
+ docker build -t techtrends . 
+```
 ## Docker commands used to run the application
-# TODO: insert the docker run command
+```
+ docker run -d -p 7111:3111 techtrends 
+```
 
 ## Docker commands used to get the application logs
-# TODO: insert the docker logs command
+```
+ docker logs --details a97c7d91ee14f49126f5a182be0ab6b91710cc24fc111e57586ee450a66b3082
+```
 
 ## Logs from the container running the TechTrends application
-# TODO: paste logs from the Docker container 
+  ```
+  * Serving Flask app "app" (lazy loading)
+  * Environment: production
+    WARNING: This is a development server. Do not use it in a production deployment.
+    Use a production WSGI server instead.
+  * Debug mode: on
+  INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 144-090-926
+INFO:werkzeug: * Running on http://0.0.0.0:7111/ (Press CTRL+C to quit)
+INFO:app:main request successfull
+INFO:werkzeug:127.0.0.1 - - [27/Nov/2021 23:24:06] "GET / HTTP/1.1" 200 -
+```
