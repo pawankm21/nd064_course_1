@@ -1,0 +1,143 @@
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 144-090-926
+INFO:werkzeug: * Running on http://0.0.0.0:3111/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 144-090-926
+INFO:werkzeug: * Running on http://0.0.0.0:3111/ (Press CTRL+C to quit)
+INFO:app:main request successfull
+INFO:werkzeug:127.0.0.1 - - [27/Nov/2021 21:08:35] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Nov/2021 21:08:36] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Nov/2021 21:08:36] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:app:Post 2020 CNCF Annual Report found
+INFO:werkzeug:127.0.0.1 - - [27/Nov/2021 21:08:43] "GET /1 HTTP/1.1" 200 -
+INFO:app:main request successfull
+INFO:werkzeug:127.0.0.1 - - [27/Nov/2021 21:08:45] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Nov/2021 21:08:46] "GET /create HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [27/Nov/2021 21:08:46] "GET /create?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Nov/2021 21:08:46] "GET /create?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Nov/2021 21:08:46] "GET /create?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Nov/2021 21:08:47] "GET /create?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Nov/2021 21:08:47] "GET /create?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Nov/2021 21:08:47] "GET /create?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:app:About page request successfull
+INFO:werkzeug:127.0.0.1 - - [27/Nov/2021 21:09:12] "GET /about HTTP/1.1" 200 -
+INFO:app:main request successfull
+INFO:werkzeug:127.0.0.1 - - [27/Nov/2021 21:09:15] "GET / HTTP/1.1" 200 -
+INFO:app:Post 2020 CNCF Annual Report found
+INFO:werkzeug:127.0.0.1 - - [27/Nov/2021 21:09:28] "GET /1 HTTP/1.1" 200 -
+INFO:app:main request successfull
+INFO:werkzeug:127.0.0.1 - - [27/Nov/2021 21:09:30] "GET / HTTP/1.1" 200 -
+INFO:app:Post 2020 CNCF Annual Report found
+INFO:werkzeug:127.0.0.1 - - [27/Nov/2021 21:09:39] "GET /1 HTTP/1.1" 200 -
+INFO:app:main request successfull
+INFO:werkzeug:127.0.0.1 - - [27/Nov/2021 21:09:41] "GET / HTTP/1.1" 200 -
+INFO:app:Post CNCF Cloud Native Interactive Landscape found
+INFO:werkzeug:127.0.0.1 - - [27/Nov/2021 21:09:42] "GET /4 HTTP/1.1" 200 -
+INFO:app:main request successfull
+INFO:werkzeug:127.0.0.1 - - [27/Nov/2021 21:10:17] "GET / HTTP/1.1" 200 -
+INFO:app:Post KubeCon + CloudNativeCon 2021 found
+INFO:werkzeug:127.0.0.1 - - [27/Nov/2021 21:10:19] "GET /2 HTTP/1.1" 200 -
+INFO:app:main request successfull
+INFO:werkzeug:127.0.0.1 - - [27/Nov/2021 21:10:22] "GET / HTTP/1.1" 200 -
+INFO:app:Post Kubernetes Certification found
+INFO:werkzeug:127.0.0.1 - - [27/Nov/2021 21:10:24] "GET /6 HTTP/1.1" 200 -
+INFO:app:main request successfull
+INFO:werkzeug:127.0.0.1 - - [27/Nov/2021 21:10:26] "GET / HTTP/1.1" 200 -
+INFO:app:Post 2020 CNCF Annual Report found
+INFO:werkzeug:127.0.0.1 - - [27/Nov/2021 21:10:27] "GET /1 HTTP/1.1" 200 -
+INFO:app:main request successfull
+INFO:werkzeug:127.0.0.1 - - [27/Nov/2021 21:10:28] "GET / HTTP/1.1" 200 -
+INFO:app:Post CNCF Cloud Native Definition v1.0 found
+INFO:werkzeug:127.0.0.1 - - [27/Nov/2021 21:10:31] "GET /5 HTTP/1.1" 200 -
+INFO:app:main request successfull
+INFO:werkzeug:127.0.0.1 - - [27/Nov/2021 21:10:32] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Nov/2021 21:10:35] "GET /create HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [27/Nov/2021 21:10:36] "GET /create?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Nov/2021 21:10:36] "GET /create?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Nov/2021 21:10:36] "GET /create?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Nov/2021 21:10:36] "GET /create?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Nov/2021 21:10:36] "GET /create?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:app:About page request successfull
+INFO:werkzeug:127.0.0.1 - - [27/Nov/2021 21:10:39] "GET /about HTTP/1.1" 200 -
+INFO:app:main request successfull
+INFO:werkzeug:127.0.0.1 - - [27/Nov/2021 21:10:41] "GET / HTTP/1.1" 200 -
+INFO:app:Post Kubernetes Certification found
+INFO:werkzeug:127.0.0.1 - - [27/Nov/2021 21:10:44] "GET /6 HTTP/1.1" 200 -
+INFO:app:main request successfull
+INFO:werkzeug:127.0.0.1 - - [27/Nov/2021 21:10:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\pawan\\Desktop\\nd064_course_1\\project\\techtrends\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 144-090-926
+INFO:werkzeug: * Running on http://0.0.0.0:3111/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\pawan\\Desktop\\nd064_course_1\\project\\techtrends\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 144-090-926
+INFO:werkzeug: * Running on http://0.0.0.0:3111/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\pawan\\Desktop\\nd064_course_1\\project\\techtrends\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 144-090-926
+INFO:werkzeug: * Running on http://0.0.0.0:3111/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\pawan\\Desktop\\nd064_course_1\\project\\techtrends\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 144-090-926
+INFO:werkzeug: * Running on http://0.0.0.0:3111/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\pawan\\Desktop\\nd064_course_1\\project\\techtrends\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 144-090-926
+INFO:werkzeug: * Running on http://0.0.0.0:3111/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\pawan\\Desktop\\nd064_course_1\\project\\techtrends\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 144-090-926
+INFO:werkzeug: * Running on http://0.0.0.0:3111/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\pawan\\Desktop\\nd064_course_1\\project\\techtrends\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 144-090-926
+INFO:werkzeug: * Running on http://0.0.0.0:3111/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\pawan\\Desktop\\nd064_course_1\\project\\techtrends\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 144-090-926
+INFO:werkzeug: * Running on http://0.0.0.0:3111/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [27/Nov/2021 21:13:23] "GET /create HTTP/1.1" 200 -
+INFO:app:New article "Untitled" created!
+INFO:werkzeug:127.0.0.1 - - [27/Nov/2021 21:13:27] "POST /create HTTP/1.1" 302 -
+INFO:app:main request successfull
+INFO:werkzeug:127.0.0.1 - - [27/Nov/2021 21:13:27] "GET / HTTP/1.1" 200 -
+INFO:app:Post Untitled found
+INFO:werkzeug:127.0.0.1 - - [27/Nov/2021 21:13:30] "GET /7 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\pawan\\Desktop\\nd064_course_1\\project\\techtrends\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 144-090-926
+INFO:werkzeug: * Running on http://0.0.0.0:3111/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\pawan\\Desktop\\nd064_course_1\\project\\techtrends\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 144-090-926
+INFO:werkzeug: * Running on http://0.0.0.0:3111/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\pawan\\Desktop\\nd064_course_1\\project\\techtrends\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 144-090-926
+INFO:werkzeug: * Running on http://0.0.0.0:3111/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\pawan\\Desktop\\nd064_course_1\\project\\techtrends\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 144-090-926
+INFO:werkzeug: * Running on http://0.0.0.0:3111/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\pawan\\Desktop\\nd064_course_1\\project\\techtrends\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 144-090-926
+INFO:werkzeug: * Running on http://0.0.0.0:3111/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\pawan\\Desktop\\nd064_course_1\\project\\techtrends\\app.py', reloading
+INFO:werkzeug: * Restarting with stat

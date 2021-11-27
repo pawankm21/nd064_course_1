@@ -70,9 +70,8 @@ def create():
                          (title, content))
             connection.commit()
             connection.close()
-
+            app.logger.info("New article "+title+" created!")
             return redirect(url_for('index'))
-    app.logger.info(f'New article "{title}" created!')
     return render_template('create.html')
 
 # health check
